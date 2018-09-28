@@ -1,0 +1,21 @@
+{
+  "name": "apache-arrow-js-module-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-working": "webpack --config webpack.config.strictExportPresence.false.js",
+    "build-broken": "webpack --config webpack.config.strictExportPresence.true.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "apache-arrow": "^0.3.1",
+    "file-loader": "^2.0.0",
+    "webpack": "^4.20.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.1"
+  }
+}
