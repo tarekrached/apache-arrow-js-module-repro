@@ -8,6 +8,8 @@ export 'XXX' was not found in 'yyy'
 
 I believe this is due to the apache-arrow ts to js transpilation.
 
+Clone this repo and run `npm install` in this directory to install dependencies.
+
 Reproduced in this repo - run `npm run build-broken` to see webpack fail, or
 ```
 ./node_modules/.bin/webpack --config ./webpack.config.strictExportPresence.true.js
